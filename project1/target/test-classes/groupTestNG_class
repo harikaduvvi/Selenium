@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="demo group">
+  <groups>
+  <run>
+  <include name="test1"/>
+  <include name="test2"/>
+  <include name="test3"/>
+  </run>
+  </groups>
+  
+  
+    <classes>
+      <class name="testNGPack.groupTestNG_class"/>
+      <class name="testNGPack.second1"/>
+      <class name="testNGPack.second12"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

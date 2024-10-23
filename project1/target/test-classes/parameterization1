@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <parameter name="name" value="harika"/>
+  <parameter name="age" value="29"/>
+    <classes>
+      <class name="parameterizationTypes.parameterization1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

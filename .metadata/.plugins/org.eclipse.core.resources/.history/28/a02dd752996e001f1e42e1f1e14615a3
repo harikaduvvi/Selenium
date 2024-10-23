@@ -1,0 +1,17 @@
+package Utils;
+
+import org.testng.annotations.Test;
+
+public class excelUtils_WithHardcoding {
+  @Test
+  public FileInputStream file = null;
+  private XSSFWorkbook ExcelWBook = null;
+  private statici XSSFSheet sheet = null;
+  static int rowcount = 0;
+  static int colcount = 0;
+  static String cellData = null;
+  // static XSSFWorkbook ExcelBook;
+  
+  
+  }
+}

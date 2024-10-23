@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Practice Grouping">
+  
+  <groups>
+  <define name="All">
+  </define>
+  <run>
+  <include name="Car"/>
+  <include name="Scooter"/>
+  <exclude name="All"/>
+  </run>
+  </groups>>
+    <classes>
+      <class name="testNGPack.grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
