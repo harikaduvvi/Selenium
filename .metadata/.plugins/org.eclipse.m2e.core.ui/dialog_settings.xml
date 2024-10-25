@@ -2,9 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\HP\eclipse-workspace\Java"/>
+			<item value="C:\Users\HP\eclipse-workspace"/>
+			<item value="D:\GIT Local Respository\Browers"/>
 			<item value="C:\Users\HP\eclipse-workspace\Java\src"/>
 			<item value="C:\Users\HP\eclipse-workspace\project1"/>
-			<item value="C:\Users\HP\eclipse-workspace\Java"/>
 			<item value="C:\Users\HP\eclipse-workspace\Selenium\src\pack_driver\Test.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -48,13 +50,24 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Selenium"/>
+			<item value="test"/>
+			<item value="browserpullcode"/>
+			<item value="newproject"/>
+			<item value="pullbrowser"/>
+			<item value="pulldata"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="testng"/>
-			<item value="project1"/>
+			<item value="test2024"/>
+			<item value="test1"/>
+			<item value="code"/>
+			<item value="pullcode"/>
+			<item value="exampleproject"/>
+			<item value="pullgitbrowser"/>
+			<item value="pulldata1"/>
+			<item value="pull"/>
+			<item value="p1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
