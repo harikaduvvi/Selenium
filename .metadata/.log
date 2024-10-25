@@ -147,3 +147,33 @@ Passive Mode
 	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:101)
 	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-25 17:17:38.125
+!MESSAGE An exception occurred during push on URI https://github.com/harikaduvvi/Selenium.git: https://github.com/harikaduvvi/Selenium.git: git-receive-pack not permitted on 'https://github.com/harikaduvvi/Selenium.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/harikaduvvi/Selenium.git: git-receive-pack not permitted on 'https://github.com/harikaduvvi/Selenium.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:702)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-25 17:17:38.126
+!MESSAGE Can't connect to any repository: https://github.com/harikaduvvi/Selenium.git (https://github.com/harikaduvvi/Selenium.git: git-receive-pack not permitted on 'https://github.com/harikaduvvi/Selenium.git/')
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-25 17:29:00.988
+!MESSAGE An exception occurred during push on URI https://github.com/harikaduvvi/Selenium.git: https://github.com/harikaduvvi/Selenium.git: git-receive-pack not permitted on 'https://github.com/harikaduvvi/Selenium.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/harikaduvvi/Selenium.git: git-receive-pack not permitted on 'https://github.com/harikaduvvi/Selenium.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:702)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
